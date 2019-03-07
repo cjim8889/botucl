@@ -11,9 +11,9 @@ def main():
         
         return jsonify({'challenge' : jsonData['challenge']})
 
+    print(jsonData)
 
-
-    return "w"
+    return jsonify({'code': 200})
 
 
 
